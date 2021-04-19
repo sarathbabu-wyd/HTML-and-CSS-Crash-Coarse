@@ -1,6 +1,5 @@
 header{
-    background-color: red;
-    padding: 20px;
+
 }
 
 .banner{
@@ -8,17 +7,27 @@ header{
 }
 
 .banner img{
-    max-width: 100%;
+    width: 100%;
 }
 
- /* .banner .welcome{ 
-    background: yellow;
+.banner .welcome{
+    background-color: orange;
     color: white;
     padding: 30px;
+    border: 5px solid green;
+    margin-left: 50px;
     position: absolute;
     left: 0;
     top: 30%;
-} */
+
+}
+
+.banner h2{
+    font-size: 30px;
+}
+
+
+
 
 
 /* .banner h2 {
