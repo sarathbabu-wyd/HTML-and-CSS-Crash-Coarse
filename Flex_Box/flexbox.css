@@ -16,6 +16,11 @@ body{
  .flex-container{
     display: flex;
     background: #ffffff;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
  }
 
 
@@ -23,21 +28,29 @@ body{
 
 .box{
     height: 100px;
-    min-width: 100px;
+    flex: 0 0 200px;s
 }
 
 
 .one{
     background: blue;
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 100px ; */
+    
 }
 
 .two{
     background: red;
-    flex-grow: 3;
+    /* flex-grow: 3; */
+    /* flex-shrink: 15; */
+    /* flex-basis: 200px; */
+    
 }
 
 .three{
     background: green;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 10; */
+    /* flex-basis: 300px; */
 }
