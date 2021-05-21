@@ -16,5 +16,22 @@ h1 {
         background: red;
         color: white;
     }
+
+#smartphone h1 {
+    display: block;
+
+}
 }
 
+/* Tablet */
+@media screen and (min-width: 501px) and (max-width: 768px){
+    body {
+        background: blue;
+        color: white;
+    }
+
+#tablet h1 {
+    display: block;
+
+}
+}
