@@ -23,6 +23,17 @@ h1 {
 }
 }
 
+/* Normal */
+@media screen and (min-width: 769px) and (max-width: 1200px){
+    body {
+        background: green;
+    }
+
+#normal h1 {
+    display: block;
+
+}
+}
 /* Tablet */
 @media screen and (min-width: 501px) and (max-width: 768px){
     body {
@@ -31,6 +42,17 @@ h1 {
     }
 
 #tablet h1 {
+    display: block;
+
+}
+}
+/* Widescreen */
+@media screen and (min-width: 1201px){
+    body {
+        background: black;
+    }
+
+#widescreen h1 {
     display: block;
 
 }
