@@ -19,3 +19,12 @@
     border-radius: 5px;
 
 }
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background:#28a745;
+    color: #fff;
+}
