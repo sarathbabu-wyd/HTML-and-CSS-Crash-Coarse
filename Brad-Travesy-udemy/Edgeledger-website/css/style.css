@@ -216,7 +216,14 @@ a {
    .flex-items {
        flex-direction: column;
    }
-
+  
+   .flex-columns .column, .flex-grid .column {
+       flex: 100%;
+       max-width: 100%;
+   }
+   .team img {
+       width: 70%;
+   }
 
 }
 
