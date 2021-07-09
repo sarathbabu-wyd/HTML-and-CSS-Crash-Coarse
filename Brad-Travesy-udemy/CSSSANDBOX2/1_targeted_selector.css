@@ -1,0 +1,16 @@
+
+
+div > p {
+    background: #ddd;
+}
+
+div + p {
+    background: #333;
+    color: #fff;
+}
+/* By attribute */
+a[target='_blank'] {
+    background: #ff0000;
+    color: #fff;
+
+}
