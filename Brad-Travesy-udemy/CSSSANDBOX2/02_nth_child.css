@@ -1,0 +1,19 @@
+li {
+    padding: 0.25rem;
+    margin: 0.25rem;
+    list-style: none;
+}
+
+/* first child */
+li:first-child {
+    background: red ;
+}
+
+/* last child */
+li:last-child {
+    background: red;
+}
+/* Position 3 */
+li:nth-child(3) {
+    background
+}
