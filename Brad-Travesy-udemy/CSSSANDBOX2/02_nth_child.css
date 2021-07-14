@@ -15,5 +15,13 @@ li:last-child {
 }
 /* Position 3 */
 li:nth-child(3) {
-    background
+    background: purple
+}
+/* Every 3 */
+li:nth-child(3n) {
+    background: orange;
+}
+/* Every 3 after 7 */
+li:nth-child(3n+7){
+    background: yellow;
 }
