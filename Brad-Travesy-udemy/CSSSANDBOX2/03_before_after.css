@@ -10,7 +10,8 @@ header {
     align-items: center;
     text-align: center;
     height: 100vh;
-
+}
+    header:before {
     background: url('https://source.unsplash.com/1690x980/?nature,water');
     no-repeat center center/cover;
     opacity: 0.4;
