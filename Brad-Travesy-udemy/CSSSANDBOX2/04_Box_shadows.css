@@ -20,7 +20,9 @@
   box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.3);
   /* inset | offset-x | offset-y | color */
   box-shadow: inset -3px -3px teal;
-
+  /* Mutiple shadows */
+  box-shadow: 3px 3px 10px teal, -3px -3px
+  10px olive;
 
 }
 
